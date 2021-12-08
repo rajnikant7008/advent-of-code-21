@@ -9,9 +9,13 @@ public class Main {
 
     public static void main(String[] args) throws IOException, URISyntaxException {
 
-        Path path = getFilePath("day1.txt");
-        System.out.println(Day1.taskOne(getLines(path)));
-        System.out.println(Day1.taskTwo(getLines(path)));
+        Path path1 = getFilePath("day1.txt");
+        System.out.println(Day1.taskOne(getLines(path1)));
+        System.out.println(Day1.taskTwo(getLines(path1)));
+
+        Path path2 = getFilePath("day2.txt");
+        System.out.println(Day2.taskOne(getLines(path2)));
+        System.out.println(Day2.taskTwo(getLines(path2)));
 
     }
 
