@@ -21,6 +21,10 @@ public class Main {
         System.out.println(Day3.taskOne(getLines(path3)));
         System.out.println(Day3.taskTwo(getLines(path3)));
 
+        Path path9 = getFilePath("day9.txt");
+        System.out.println(Day9.taskOne(getLines(path9)));
+        System.out.println(Day9.taskTwo(getLines(path9)));
+
     }
 
     public static Path getFilePath(String filename) throws URISyntaxException {
